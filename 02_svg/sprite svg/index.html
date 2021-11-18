@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG-спрайты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h2 style="text-align: center;margin-top: 60px;margin-bottom: 40px;">Как это работает?</h2>
+    <div class="main-screen">
+      <div class="main-svg" style="margin-right: auto;">
+    <svg width="375" height="288">
+        <use xlink:href="sprit.svg#coffee"></use>
+    </svg>
+    <h3>Утренний<span> кофе</span></h3>
+    <p>Кофеин воздействует на центральную нервную систему как природный “будильник”. Поэтому мы быстрее просыпаемся.</p>
+</div><div class="main-svg" style="margin :0 auto">
+    <svg width="375" height="288">
+        <use xlink:href="sprit.svg#ink"></use>
+    </svg>
+    <h3>Час <span>медитации</span></h3>
+    <p>После практик оба полушария мозга начинают работать сбалансированно — это привносит порядок в вашу жизнь.</p>
+</div>
+    <div class="main-svg" style="margin-left:auto">
+    <svg width="375" height="288">
+        <use xlink:href="sprit.svg#sprinting"></use>
+    </svg>
+    <h3>Вперёд к <span>свершениям</span></h3>
+    <p>Ресурсы каждого человека ограничены, поэтому нам необходимо беречь себя и вовремя останавливаться.</p>
+</div>
+</div>
+<div style="display: flex;">
+    <div style="width: 600px;">
+        <h2>Интеграция со сторонними сервисами</h2>
+        <p style="margin-top: 15px;">Поможет всегда оставаться в курсе всех событий, быть максимально эффективным на протяжении всего рабочего дня, контролировать свои задачи и не опоздать на запланированные встречи.</p>
+    </div>
+    <div style="margin-left: auto;">
+    <div style="margin-top: 30px;">
+        <svg width="70" height="70">
+            <use xlink:href="sprit.svg#facebook"></use>
+        </svg>
+        <svg class="soc-icon" width="70" height="70">
+            <use xlink:href="sprit.svg#trello"></use>
+        </svg>
+        <svg class="soc-icon" width="70" height="70">
+            <use xlink:href="sprit.svg#worklio"></use>
+        </svg>
+        <svg class="soc-icon" width="70" height="70">
+            <use xlink:href="sprit.svg#dropbox"></use>
+        </svg>
+</div>
+<div style="margin-top: 30px; margin-left: 70px;">
+    <svg class="soc-icon-b" width="70" height="70">
+        <use xlink:href="sprit.svg#google"></use>
+    </svg><svg class="soc-icon-b" width="70" height="70">
+        <use xlink:href="sprit.svg#trello2"></use>
+    </svg><svg width="70" height="70">
+        <use class="soc-icon-b" xlink:href="sprit.svg#slack "></use>
+    </svg>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
